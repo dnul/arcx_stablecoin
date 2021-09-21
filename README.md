@@ -70,7 +70,8 @@ you'll need to setup a project in bigquery first since it relies on public datas
 
 # Analysis
 
-we explore the results in the notebook
+we do some validation of the features, explore the distribution of the index, analyze the sample data and use the index within the borrowing context in the notebook: https://github.com/dnul/arcx_stablecoin/blob/main/Analyzing_index_eth_to_stablecoin_ratio.ipynb
+
 
 # Caveats
 
