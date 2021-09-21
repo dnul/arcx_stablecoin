@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: blockchain-etl
+    tables:
+      - name: ethereum_compound.cUSDC_event_Borrow
+      - name: ethereum_compound.cUSDC_event_LiquidateBorrow
+
+  - name: bigquery-public-data.crypto_ethereum
+    tables:
+      - name: ammended_tokens
+      - name: token_transfers
+      - name: blocks
+      - name: traces
+      - name: transactions
